@@ -56,7 +56,7 @@ export default function TaskItem({
   }
 }
 
-TaskItem.protoTypes = {
+TaskItem.propTypes = {
   id: PropTypes.number.isRequired,
   title: PropTypes.string.isRequired,
   taskState: PropTypes.string.isRequired
